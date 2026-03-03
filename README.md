@@ -1,7 +1,7 @@
 
 
 
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code\&size=33\&duration=4000\&pause=1000\&color=D8DEE9\&width=435\&height=59\&lines=%E2%9D%84%EF%B8%8F+Niri+%2B+Nord)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code\&size=33\&duration=4000\&pause=1000\&color=D8DEE9\&width=435\&height=59\&lines=%E2%9D%84%EF%B8%8F+Niri+%2B+Wallust)](https://git.io/typing-svg)
 
 ### A clean and minimal Wayland setup using [**Niri**](https://github.com/YaLTeR/niri).
 [7c3a20b6fcbd](https://github.com/user-attachments/assets/348390e6-b0ba-4512-a51f-7c3a20b6fcbd)
@@ -18,7 +18,8 @@
 ├── nvim            # NvChad 
 ├── obs-studio      # obs theme
 ├── superfile       # file manager
-├── rofi            # launcher           
+├── rofi            # launcher
+├── wallust         # color generator 
 └── waybar          # status bar 
 
 ```
@@ -68,5 +69,7 @@ chmod +x install.sh
 | Kitty              | [Website](https://sw.kovidgoyal.net/kitty/)                                                                  |
 | OBS Studio         | [Website](https://obsproject.com/)                                                                           |
 | Fastfetch          | [GitHub](https://github.com/fastfetch-cli/fastfetch)                                                         |
-| Wallpapers         | [Local Folder](./.config/walls)                                                                              |
+| Wallpapers         | [GitHub](https://github.com/N1XA-CLI/walls)                                                                  |
+| Wallust            | [Codeberg](https://codeberg.org/explosion-mental/wallust)                                                    |
+| Cava               | [Cava](https://github.com/karlstav/cava)                                                    |
 
