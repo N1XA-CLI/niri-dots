@@ -1,10 +1,9 @@
-
-/* Matugen color */
-@import '../../.config/waybar/colors/colors.css';
+/* Importing matugen colors */
+@import '../waybar/colors/colors.css';
 
 
 window {
-    font-family: JetBrainsMono Nerd Font Mono;
+    font-family: JetBrainsMono Nerd Font;
     font-size: 16pt;
     color: @foreground;
     background-color: @surface-alpha;
@@ -21,6 +20,7 @@ button {
     box-shadow: 0 0 10px 2px transparent;
     border-radius: 36px;
     margin: 10px;
+
     min-width: 170px;
     min-height: 170px;
     padding: 0px;
@@ -47,9 +47,8 @@ button:hover {
     box-shadow: 0 0 10px 3px rgba(0,0,0,.4);
     background-color: @primary;
     transition: all 0.3s cubic-bezier(.55, 0.0, .28, 1.682),
-                box-shadow 0.5s ease-in;
+    box-shadow 0.5s ease-in;
 }
-
 
 /* ICONS */
 #shutdown {
@@ -80,9 +79,9 @@ button:hover {
     background-image: image(url("./icons/lock-hover.png"));
 }
 
-#hibernate {
+#sleep {
     background-image: image(url("./icons/hibernate.png"));
 }
-#hibernate:hover {
+#sleep:hover {
     background-image: image(url("./icons/hibernate-hover.png"));
 }
