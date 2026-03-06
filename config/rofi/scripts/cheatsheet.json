@@ -13,9 +13,9 @@
       { "cmd": "MOD + A", "desc": "Open application launcher" },
       { "cmd": "MOD + B", "desc": "Open Brave browser" },
       { "cmd": "MOD + C", "desc": "Open Neovim in terminal" },
-      { "cmd": "MOD + M", "desc": "Open floating music player" },
+      { "cmd": "MOD + M", "desc": "Open Spotify" },
       { "cmd": "MOD + E", "desc": "Open floating Yazi file manager" },
-      { "cmd": "MOD + A", "desc": "Toggle notification center" }
+      { "cmd": "MOD + N", "desc": "Toggle notification center" }
     ],
 
     "Window Controls": [
@@ -23,8 +23,7 @@
       { "cmd": "MOD + ALT + Delete", "desc": "Exit Niri session" },
       { "cmd": "MOD + F", "desc": "Toggle fullscreen" },
       { "cmd": "MOD + SPACE", "desc": "Toggle floating mode" },
-      { "cmd": "MOD + J", "desc": "Toggle split direction" },
-      { "cmd": "MOD + TAB", "desc": "Cycle through windows" },
+      { "cmd": "ALT + TAB", "desc": "Cycle through windows" },
       { "cmd": "MOD + O", "desc": "Toggle overview mode" },
       { "cmd": "MOD + W", "desc": "Toggle column tabbed display" }
     ],
@@ -39,11 +38,13 @@
 
     "Workspace Management": [
       { "cmd": "MOD + 1 → 0", "desc": "Switch workspace (1-10)" },
-      { "cmd": "MOD + CTRL + 1 → 0", "desc": "Move to workspace (1-10)" },
-      { "cmd": "MOD + K", "desc": "Previous workspace" },
+      { "cmd": "MOD + SHIFT + 1 → 0", "desc": "Move to workspace (1-10)" },
+      { "cmd": "MOD + H", "desc": "Focus left window" },
       { "cmd": "MOD + J", "desc": "Next workspace" },
-      { "cmd": "MOD + SHIFT + J", "desc": "Move window down" },
-      { "cmd": "MOD + SHIFT + k", "desc": "Move window up" },
+      { "cmd": "MOD + K", "desc": "Previous workspace" },
+      { "cmd": "MOD + L", "desc": "Focus right window" },
+      { "cmd": "MOD + SHIFT + J", "desc": "Move to lower workspace" },
+      { "cmd": "MOD + SHIFT + k", "desc": "Move to upper workspace" },
       { "cmd": "MOD + SHIFT + I", "desc": "Move all windows to upper workspace" },
       { "cmd": "MOD + SHIFT + U", "desc": "Move all windows to lower workspace" },
       { "cmd": "MOD + Scroll", "desc": "Cycle through workspaces" }
@@ -56,7 +57,9 @@
     ],
 
     "Screenshots & Recording": [
-      { "cmd": "MOD + SHIFT + S", "desc": "Take region screenshot" },
+      { "cmd": "PrintScreen", "desc": "Take region to screenshot" },
+      { "cmd": "CTRL + PrintScreen", "desc": "Screenshot focused Screen" },
+      { "cmd": "ALT + PrintScreen", "desc": "Screenshot focused window" },
       { "cmd": "MOD + SHIFT + R", "desc": "Record screen region" },
       { "cmd": "MOD + SHIFT + ALT + R", "desc": "Record region with audio" },
       { "cmd": "MOD + SHIFT + X", "desc": "Extract text using OCR" },
@@ -65,25 +68,25 @@
     ],
 
     "Clipboard & Utilities": [
-      { "cmd": "MOD + ALT + C", "desc": "Open clipboard manager" },
-      { "cmd": "CTRL + ALT + Delete", "desc": "Clear clipboard history" }
+      { "cmd": "MOD + V", "desc": "Open clipboard manager" }
     ],
 
     "System & Theming": [
-      { "cmd": "MOD + ALT + W", "desc": "Open wallpaper picker" },
-      { "cmd": "MOD + ALT + T", "desc": "Open theme picker" },
-      { "cmd": "MOD + ALT + S", "desc": "Open system launcher" },
+      { "cmd": "MOD + SHIFT + W", "desc": "Open wallpaper picker" },
+      { "cmd": "MOD + SHIFT + S", "desc": "Open system launcher" },
+      { "cmd": "MOD + SHIFT + C", "desc": "Change color scheme and mode" },
       { "cmd": "MOD + SHIFT + B", "desc": "Switch Waybar theme" },
-      { "cmd": "MOD + ALT + P", "desc": "Open logout menu" }
+      { "cmd": "MOD + Excape", "desc": "Open powermenu" }
     ],
 
     "Media & Brightness": [
-      { "cmd": "F7", "desc": "Increase volume" },
-      { "cmd": "F6", "desc": "Decrease volume" },
       { "cmd": "F4", "desc": "Toggle mute output" },
+      { "cmd": "F6", "desc": "Decrease volume" },
+      { "cmd": "F7", "desc": "Increase volume" },
       { "cmd": "F8", "desc": "Toggle microphone mute" },
-      { "cmd": "F10", "desc": "Increase brightness" },
-      { "cmd": "F9", "desc": "Decrease brightness" }
+      { "cmd": "F9", "desc": "Decrease brightness" },
+      { "cmd": "F10", "desc": "Increase brightness" }
+
     ]
   }
 }

@@ -63,7 +63,7 @@ entry {
     background-color:        transparent;
     text-color:              @on-surface;
     cursor:                  text;
-    placeholder:             "Choose Waybar theme";
+    placeholder:             "Search";
     placeholder-color:       @on-surface-variant;
 }
 
