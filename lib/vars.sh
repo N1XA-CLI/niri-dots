@@ -37,8 +37,6 @@ PKG_FILE="$SCRIPT_DIR/packages/pkglist.txt"
 FONT_SOURCE="$HOME/.niku/fonts"
 FONT_DEST="$HOME/.local/share/fonts/niku"
 
-<<<<<<< HEAD
-=======
 
 ########################################
 # Wallpapers
