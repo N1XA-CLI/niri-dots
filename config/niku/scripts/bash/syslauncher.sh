@@ -7,7 +7,7 @@ ROFI_CONFIG="$HOME/.config/rofi/applets/system_launcher.rasi"
 MENU_ITEMS=(
     "󱂬   Waybar Layout"
     "󱓞   Rofi Layout"
-    "󰏘   Theme Switcher"
+    # "󰏘   Theme Switcher"
     "󰸉   Wallpaper Switcher"
     "󰔎   Toggle Dark/Light"
     "   Clipboard"
@@ -29,9 +29,9 @@ case "$SELECTED" in
     "󱓞   Rofi Layout")
         "$HOME/.config/niku/scripts/bash/rofi-theme-switcher.sh"
         ;;
-    "󰏘   Theme Switcher")
-        "$HOME/.config/niku/scripts/bash/themepicker.sh"
-        ;;
+    # "󰏘   Theme Switcher")
+    #     "$HOME/.config/niku/scripts/bash/themepicker.sh"
+    #     ;;
     "󰸉   Wallpaper Switcher")
         "$HOME/.config/niku/scripts/bash/wall_selector.sh"
         ;;
