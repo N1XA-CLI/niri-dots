@@ -360,8 +360,7 @@ install_fonts() {
 
 }
 
-<<<<<<< HEAD
-=======
+
 ########################################
 # Wallpaper Installation
 ########################################
@@ -417,7 +416,6 @@ install_wallpapers() {
 
 }
 
->>>>>>> e4058fb (Updated)
 
 ########################################
 # Full Installer
@@ -433,10 +431,8 @@ full_install() {
     install_packages
     link_configs
     install_fonts
-<<<<<<< HEAD
-=======
     install_wallpapers
->>>>>>> e4058fb (Updated)
+
 
     success "Full installation finished"
 

@@ -46,7 +46,6 @@ WALLPAPER_DIR="$HOME/Pictures/Wallpapers"
 WALLPAPER_REPO="https://github.com/N1XA-CLI/walls"
 
 
->>>>>>> e4058fb (Updated)
 ########################################
 # Backup and logging
 ########################################
