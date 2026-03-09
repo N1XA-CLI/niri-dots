@@ -10,7 +10,7 @@ window#waybar {
     border-bottom: 1px solid #181825;
     border-radius: 0px;
     background: transparent;
-    background-color: @on_primary;
+    background-color: alpha(@surface,1);;
 }
 
 #mpris,
